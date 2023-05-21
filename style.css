@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Outfit:wght@200;400;700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+@font-face {
+    font-family: binary;
+    src: url(Assests/binary.ttf)
+}
+
+.titulo {
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+    font-size: 12rem;
+    background: linear-gradient(90deg, #A478E8 0%, #516CF7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 160px;
+}
+
+.binario {
+    font-family: binary, serif;
+    font-size: 4rem;
+    color: #2E2E48;
+    line-height: 70px;
+}
+
+.binario > div {
+    text-align: left;
+    margin: 0.8%;
+    transition: 0.5s !important;
+}
+
+.binario > div:hover {
+    margin: 0.8%;
+    font-size: 5rem;
+    cursor: none;
+}
+
+@media (max-width: 576px) {
+    .titulo {
+        font-size: 7.5rem;
+        line-height: 100px;
+    }
+
+    .binario {
+        font-size: 3rem;
+    }
+
+    .profile {
+        width: 325px;
+    }
+
+    .colunaSobreMim {
+        margin-bottom: 15px;
+    }
+
+    .tituloSobreMim {
+        font-size: 4rem;
+        line-height: 150px;
+    }
+
+
+    .iconeLinguagem {
+        color: #2E2E48;
+        font-size: 110%;
+    }
+
+    .tituloProjetos > span {
+        font-size: 4rem;
+        line-height: 100px;
+    }
+
+}
+
+.colunaSobreMim {
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+    font-size: 6rem;
+    color: white;
+    transition: 0.5s !important;
+    background-size: 200% auto !important;
+    background: linear-gradient(90deg, #a576ff 0%, #0c269f 100%);
+}
+
+.colunaSobreMim:hover {
+    background-position: right top !important; /* change the direction of the change here */
+}
+
+.colunaDados {
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+.bi-envelope-fill {
+    background-color: #E2E6EE;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.classe-bg-icone-sobremim {
+    width: 30px;
+    height: 30px;
+    background-color: #E2E6EE;
+    border-radius: 50px;
+    text-align: center;
+    padding: 4px;
+    color: #79819A;
+}
+
+.classe-bg-icone-sobremim:hover {
+    color: #5531A7;
+}
+
+#secaoSobreMim {
+    scroll-margin-top: 20px;
+}
+
+.bgSecaoSkills {
+    font-family: "DM Sans", serif !important;
+    background-color: #8c63f3;
+    opacity: 1;
+    background-image: linear-gradient(#163dff 3.8px, transparent 3.8px), linear-gradient(90deg, #163dff 3.8px, transparent 3.8px), linear-gradient(#163dff 1.91px, transparent 1.91px), linear-gradient(90deg, #163dff 1.91px, #8C63F3 1.91px);
+    background-size: 95px 95px, 95px 95px, 19px 19px, 19px 19px;
+    background-position: -3.8px -3.8px, -3.8px -3.8px, -1.91px -1.91px, -1.91px -1.91px;
+}
+
+
+.glassMorph {
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.27);
+    width: 95%;
+}
+
+.softSkillsButton {
+    background: rgb(45, 48, 49, 1) !important;
+    color: rgb(255, 255, 255) !important;
+    font-weight: bold !important;
+    border-radius: 100px !important;
+    padding: 8px 12px !important;
+    border-style: none !important;
+    font-size: 1.1rem;
+    margin-right: 50%;
+}
+
+.softSkillsButton:hover {
+    background: rgba(45, 48, 49, 0.55) !important;
+    color: #E2E6EE !important;
+    -webkit-backdrop-filter: blur(50px) !important;
+}
+
+.cartaoSkill {
+    border-style: none !important;
+    background-color: #F7F9FC !important;
+}
+
+.iconeLinguagem {
+    font-size: 450%;
+}
+
+.tituloSobreMim {
+    line-height: 100px;
+}
+
+.tituloProjetos {
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+    font-size: 8rem;
+    background: linear-gradient(90deg, #A478E8 0%, #516CF7 100%);
+    line-height: 120px;
+    transition: 0.5s !important;
+    color: white;
+    box-shadow: inset 0px 0px 30px rgba(3, 18, 87, 0.77);
+}
+
+.tituloProjetos:hover {
+    line-height: 250px;
+}
+
+.cartaoProjeto {
+    min-height: 380px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.botaoLinksProjeto {
+    background: #653cc7 !important;
+    color: rgb(255, 255, 255) ;
+    font-weight: bold !important;
+    border-radius: 100px !important;
+    padding: 8px 12px !important;
+    border-style: none !important;
+    margin-right: 5px;
+}
+
+.divisoriaBinario {
+    font-family: binary, sans-serif;
+    background: linear-gradient(90deg, #A478E8 0%, #516CF7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
